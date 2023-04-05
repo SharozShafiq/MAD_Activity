@@ -19,7 +19,7 @@ const Header = (props) => {
 
     return (
         <div style={theme.style}>
-            <p>Welcome to Baham, an in-campus ride sharing service.</p>
+            <p>Welcome to Baham, a ride sharing service....</p>
             <button id="themeButton" onClick={themeHandler}>Switch Theme</button>
         </div>
     )
@@ -27,7 +27,7 @@ const Header = (props) => {
 
 const Exercise4 = () => {
     return (
-        <Header heading="Baham!" slogan="Reducing your carbon footprint..." />
+        <Header heading="Baham!" slogan="Share Ride Easily with Baham" />
     );
 }
 
