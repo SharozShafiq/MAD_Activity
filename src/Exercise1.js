@@ -3,8 +3,8 @@
 const Exercise1 = () => {
     return (
         <div>
-            <h1>Write a heading here</h1>
-            <h3>Write a slogan here</h3>
+            <h1>Welcome To Baham</h1>
+            <h3>Drive Safely</h3>
         </div>
     )
 }
