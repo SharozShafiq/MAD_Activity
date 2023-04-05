@@ -3,7 +3,7 @@ import {useState} from 'react';
 
 const Header = (props) => {
     const [headingStyle] = useState({ color: 'maroon' });
-    const [sloganStyle] = useState({});
+    const [sloganStyle] = useState({ fontstyle: 'italic'});
 
     return (
         <div>
@@ -15,7 +15,7 @@ const Header = (props) => {
 
 const Exercise3 = () => {
     return (
-        <Header heading="Baham!" slogan="Reducing your carbon footprint..." />
+        <Header heading="Baham!" slogan="Share Ride Easily with Baham" />
     );
 }
 
